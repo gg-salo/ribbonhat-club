@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Col, Row, Card, CardImg, CardBody, CardTitle, Button } from 'reactstrap'
 import Hat from '../static/images/rhat-square-nobg.png';
+import "../static/css/Experiments.css";
 
 const Grid = () => {
 
