@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'vcr_osd_monoregular';
+    src: url('../fonts/vcrmono-webfont.woff2') format('woff2'),
+         url('../fonts/vcrmono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;700&family=IBM+Plex+Sans:wght@100;300;400;700&display=swap');
+
+
+
+root html, body, .App {
+    font-family: 'vcr_osd_monoregular', monospace;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #1f1d1c !important;
+    /* background: rgb(31,29,28);
+    background: linear-gradient(333deg, rgba(31,29,28,1) 42%, rgba(139,45,62,1) 100%); */
+}
+
+.product-container {
+    columns: 3 auto;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.product-card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* card styling */
+
+.card {
+    background: #141415 !important;
+    border-radius: 4px;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 20px 36px 20px 36px;
+    border-color: #303032 !important;
+    box-shadow: 
+        0 0.46875rem 2.1875rem rgb(59 62 102 / 3%),
+        0 0.9375rem 1.40625rem rgb(59 62 102 / 3%),
+        0 0.25rem 0.53125rem rgb(59 62 102 / 5%),
+        0 0.125rem 0.1875rem rgb(59 62 102 / 3%);
+}
+
+
+.btn {
+    background-color: #331a1f !important;
+    border-color: #331a1f !important;
+    padding: .50rem 1.5rem !important;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    font-family: 'vcr_osd_monoregular', monospace;
+    opacity: 0.6;
+}
+
+.btn:hover {
+    background-color: #8e2d3f !important;
+    color:#fff;
+    border: 1px solid #8e2d3f !important;
+}
+
+
+
+/* GRID */
+
+.card-title {
+    color: #fff;
+    font-family: 'vcr_osd_monoregular', monospace;
+    font-weight: normal;
+    font-style: normal;
+}
