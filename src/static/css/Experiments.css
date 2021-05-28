@@ -73,3 +73,13 @@ root html, body, .App {
     font-weight: normal;
     font-style: normal;
 }
+
+.product-link {
+    text-decoration: none !important;
+}
+
+/* DETAIL PAGE */
+
+.product-detail-container {
+    padding-top: 10vh;
+}

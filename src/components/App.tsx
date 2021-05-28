@@ -10,6 +10,7 @@ const App = () => {
       <Navigation />
       <Route exact path="/" component={Grid} />
       <Route exact path="/ribbon-hat" component={ProductDetail} />
+      <Route path="/hat/:id" component={ProductDetail} />
     </Router>
   );
 };
